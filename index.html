@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+<style>
+    img{
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px 1px yellow;
+    }
+    img:hover{
+           zoom: 110%;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        background-color: black;
+    }
+    .p1{
+        color:aquamarine;
+    }
+    .p2{
+        color:springgreen;
+    }
+    .p3{
+        color:salmon;
+    }
+    .p1:hover{
+        cursor: pointer;
+    }
+    .p2:hover{
+        cursor:no-drop;
+    }
+    .p3:hover{
+        cursor:grabbing;
+    }
+    h2{
+        color:purple;
+    }
+</style>
+
+</head>
+<body>
+
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/90be1cbc-59fb-4d85-9ba0-2d1a6fe32fd7/db8gw2e-b8014897-8991-4b22-b73f-3b1e53162581.png/v1/fill/w_1024,h_576,q_80,strp/javascript_wallpaper_by_mrhudson_db8gw2e-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvOTBiZTFjYmMtNTlmYi00ZDg1LTliYTAtMmQxYTZmZTMyZmQ3XC9kYjhndzJlLWI4MDE0ODk3LTg5OTEtNGIyMi1iNzNmLTNiMWU1MzE2MjU4MS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.S0YXl3TmWvWzeze9lKqgOELb4XgjwPu066NpO9BZy1w" alt="" height="150px", width="200px">
+        <br><br>
+        <h2>1.Traffic Light System
+             Simulate a traffic light system:</h2>
+
+    <p class="p1">var traffic= "Red";<br>
+        if(traffic=="Red")<br>
+        {<br>
+            console.log(traffic,':',"Stop");<br>
+        }<br>
+        else if(traffic=="Yellow")<br>
+        {
+            console.log(traffic,':',"Get Ready to Move");<br>
+        }<br>
+        else if(traffic=="Green")<br>
+        {<br>
+            console.log(traffic,':',"Go")<br>
+        }<br>
+        else{<br>
+            console.log("Invalid input");<br>
+        }
+              
+        
+    </p>
+    <h2>2.Weather Description (Temperature Descriptions)
+         Write a program that describes the temperature:</h2>
+    <p class="p2">
+        var temp = 2;<br>
+
+if (temp == 0) <br>
+    {<br>
+  console.log("Its a Freezing cold", temp);<br>
+    }<br>
+  else if (temp == 1) {<br>
+    console.log("It's a Cool Day",temp);<br>
+  }<br>
+ else if (temp == 2) {<br>
+    console.log("It's a Pleasant Day",temp);<br>
+  } <br>
+  else {<br>
+    console.log("Unknown Weather");<br>
+  }
+
+
+    </p>
+
+    <h2>3.: Day of the Week
+
+        // Create a program that takes input of a number representing the day of the week (1-7):</h2>
+    <p class="p3">var day = 2;<br>
+
+        if (day == 1) <br>{<br>
+          console.log(day, "Monday");<br>
+        } <br>else if (day == 2)<br> {<br>
+          console.log(day, "Tuesday");<br>
+        }<br> else if (day == 3)<br> {<br>
+          console.log(day, "wednesday");<br>
+        } <br>else if (day == 4)<br> {<br>
+          console.log(day, "Thursday");<br>
+        }<br> else if (day == 5) <br>{<br>
+          console.log(day, "Friday");<br>
+        } <br>else if (day == 6)<br> {<br>
+          console.log(day, "Saturday");<br>
+        }<br> else if (day == 7) <br>{<br>
+          console.log(day, "Sunday");<br>
+        }<br>
+        else<br>
+         {<br>
+    console.log("Invalid input");<br>
+           }
+        </p>
+    
+    
+</body>
+</html>
